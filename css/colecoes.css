@@ -1,0 +1,45 @@
+#colecoes{
+  background: #f9f9f9;
+}
+
+.section-colecao {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 1fr;
+}
+
+.colecoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.titulo-colecao {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.texto-colecao .link {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px){
+
+  .section-colecao{
+    grid-template-columns: 1fr;
+  }
+
+  .titulo-colecao {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+
+  .colecoes{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr;
+  }
+
+  .colecoes img{
+    width: 100%;
+  }
+}

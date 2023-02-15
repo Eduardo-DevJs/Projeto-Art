@@ -1,0 +1,27 @@
+#footer{
+  background: #f9f9f9;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+}
+
+.footer-menu a {
+  color: #0c0c0c;
+}
+
+@media(max-width: 768px){
+  .footer-menu {
+    margin-top: 20px;
+  }
+}

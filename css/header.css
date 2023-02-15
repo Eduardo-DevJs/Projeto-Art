@@ -1,0 +1,35 @@
+.header-bg {
+  background: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-form {
+  width: 80%;
+}
+
+.header-input {
+  width: 60%;
+  font-size: 1rem;
+  display: flex;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  background: #ebebeb;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.header-input::placeholder::after {
+  color: #737373;
+}
+
+@media(max-width: 768px){
+  .header-form {
+    display: none;
+  }
+}
